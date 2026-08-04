@@ -1,0 +1,329 @@
+<!-- Tables in html & Semantics in tables-->
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables in HTML</title>
+  </head>
+  <body>
+    <table border="black">
+      <caption>
+        Food Menu
+      </caption>
+
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Frooti</td>
+          <td>10</td>
+        </tr>
+
+        <tr>
+          <td>Samosa</td>
+          <td>12</td>
+        </tr>
+
+        <tr>
+          <td>Chips</td>
+          <td>20</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td>Total Cost</td>
+          <td>42</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html> -->
+
+<!-- Colspan & Rowspan -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Col & Rowspan</title>
+  </head>
+  <body>
+    <table border="black">
+      <caption>
+        Food Menu
+      </caption>
+      <thead>
+        <tr>
+          <th rowspan="2">Item</th>
+          <th colspan="2">Price</th>
+        </tr>
+        <tr>
+          <th>INR</th>
+          <th>USD</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Frooti</td>
+          <td>10</td>
+          <td>0.14</td>
+        </tr>
+        <tr>
+          <td>Samosa</td>
+          <td>12</td>
+          <td>0.17</td>
+        </tr>
+        <tr>
+          <td>Chips</td>
+          <td>20</td>
+          <td>0.28</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html> -->
+
+<!-- Practice Q. 7 -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Q. 7</title>
+  </head>
+  <body>
+    <table border="black">
+      <caption>
+        A test table with merged cells
+      </caption>
+      <tr>
+        <td rowspan="2"></td>
+        <td colspan="2">Average</td>
+        <td rowspan="2">Red eyes</td>
+      </tr>
+      <tr>
+        <td>Height</td>
+        <td>Weight</td>
+      </tr>
+      <tr>
+        <td>Males</td>
+        <td>1.9</td>
+        <td>0.003</td>
+        <td>40%</td>
+      </tr>
+      <tr>
+        <td>Females</td>
+        <td>1.7</td>
+        <td>0.002</td>
+        <td>43%</td>
+      </tr>
+    </table>
+  </body>
+</html> -->
+
+<!-- Forms in HTML, Input - Form element -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms in HTML</title>
+  </head>
+  <body>
+    <form action="/action">
+      Username : <input type="text" /> <br /><br />
+      Password : <input type="password" /> <br /><br />
+      number : <input type="number" /> <br /><br />
+      time : <input type="time" /> <br /><br />
+      color : <input type="color" /> <br /><br />
+      date : <input type="date" /><br />
+    </form>
+  </body>
+</html> -->
+
+<!-- placeholder & labels, button element, name attribute-->
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms in HTML</title>
+  </head>
+  <body>
+    <form action="/action.php">
+      <div>
+        <label for="username">Username : </label>
+        <input
+          type="text"
+          placeholder="enter username"
+          id="username"
+          name="user"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password : </label>
+        <input
+          type="password"
+          placeholder="enter password"
+          id="password"
+          name="pass"
+        />
+      </div>
+      <br />
+
+      <button>Submit</button>
+    </form>
+    <hr />
+
+    <form action="https://www.youtube.com/results">
+      <input type="text" placeholder="search in youtube" name="search_query" />
+      <button>Search</button>
+    </form>
+  </body>
+</html> -->
+
+<!-- Practice Q. 8 -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Q. 8</title>
+  </head>
+  <body>
+    <form action="https://www.google.com/search">
+      <input type="text" placeholder="Search in Google" name="q" />
+      <button>Search</button>
+    </form>
+    <hr />
+    <form action="https://www.bing.com/search">
+      <input type="text" placeholder="search on Bing" name="q" />
+      <button>Search</button>
+    </form>
+  </body>
+</html> -->
+
+<!-- Checkbox, radio, select, range, text Area-->
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Controls in HTML</title>
+  </head>
+  <body>
+    <form action="/server">
+      <label for="age">I am 18+</label>
+      <input type="checkbox" id="age" name="age" checked /><br /><br />
+
+      <div>
+        <input type="radio" name="fruit" id="apple" value="apple" />
+        <label for="apple">apple</label>
+
+        <input type="radio" name="fruit" id="mango" value="mango" />
+        <label for="mango">mango</label>
+
+        <input type="radio" name="fruit" id="banana" value="banana" />
+        <label for="banana">banana</label>
+      </div>
+      <br />
+
+      <div>
+        Choose your subjects :
+        <input type="checkbox" id="math" name="sub" value="math" />
+        <label for="math">math</label>
+
+        <input type="checkbox" id="science" name="sub" value="sci" />
+        <label for="science">science</label>
+
+        <input type="checkbox" id="english" name="sub" value="eng" />
+        <label for="english">english</label>
+      </div>
+      <br />
+
+      <div>
+        <label for="profession">Choose your profession :</label>
+        <select name="profession" id="profession">
+          <option>Select your option</option>
+          <option value="stu">Student</option>
+          <option value="dev" selected>Developer</option>
+        </select>
+      </div>
+      <br />
+
+      <div>
+        <label for="volume">Select volume level : </label>
+        <input
+          type="range"
+          name="vol"
+          id="volume"
+          min="0"
+          max="100"
+          step="10"
+          value="40"
+        />
+      </div>
+      <br />
+
+      <div>
+        <label for="feedback">Please give your valuable feedback :</label><br />
+        <textarea
+          name="feed"
+          id="feedback"
+          placeholder="give your feedback here!"
+          rows="5"
+          cols="30"
+        ></textarea>
+      </div>
+      <br />
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html> -->
+
+<!-- Practice Q. 9 -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Q. 9</title>
+  </head>
+  <body>
+    <form action="/server">
+      <h2>Registeration Form</h2>
+      <div>
+        <input type="text" name="firstName" placeholder="First Name" required />
+        <input type="text" name="lastName" placeholder="Last Name" required />
+      </div>
+
+      <div>
+        <label for="gender">Please select gender</label>
+        <select name="gender" id="gender" required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="others">Others</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="tos_agree">Do you agree to all terms of services?</label>
+        <input type="checkbox" name="tos_agree" id="tos_agree" required />
+        <label for="tos_agree">Yes, I agree</label>
+      </div>
+
+      <div>
+        <button>Register</button>
+      </div>
+    </form>
+  </body>
+</html> -->
