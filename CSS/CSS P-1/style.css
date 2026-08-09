@@ -1,0 +1,74 @@
+/* Color property, background */
+/* h1 {
+  color: blue;
+  background-color: gray;
+}
+p {
+  color: red;
+  background-color: cornsilk;
+}
+button {
+  color: gold;
+  background-color: brown;
+} */
+
+/* practice Qs */
+/* h2 {
+  color: orange;
+}
+button {
+  background-color: blue;
+  color: white;
+}
+p {
+  background-color: black;
+  color: white;
+} */
+
+/* Color Systems - Named colors */
+/* h2 {
+  color: olive;
+  color: rgb(0, 255, 0);
+  color: #fff;
+  background-color: #18ba1b;
+} */
+
+/* text align property, .... */
+/* h1 {
+  text-align: center;
+  text-decoration: wavy red underline;
+  letter-spacing: 5px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  text-align: start;
+  text-decoration: green line-through;
+}
+p {
+  text-align: justify;
+  font-weight: 400;
+  line-height: 2;
+  font-size: 24px;
+}
+h2 {
+  font-weight: 800;
+  text-decoration: double blue overline;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+a {
+  text-decoration: none;
+} */
+
+/* Practice Qs */
+h1 {
+  font-family: league system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI";
+  color: #ffa511;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  text-decoration: teal double underline;
+  text-transform: uppercase;
+}
