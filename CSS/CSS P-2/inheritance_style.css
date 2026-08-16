@@ -1,0 +1,25 @@
+/* example  */
+/* div {
+  background-color: lightblue;
+}
+
+p {
+  background-color: lightgoldenrodyellow;
+} */
+
+div {
+  background-color: lightgoldenrodyellow;
+}
+
+form {
+  background-color: lightcoral;
+}
+
+input,
+button {
+  background-color: inherit;
+}
+
+button:hover {
+  background-color: red;
+}
