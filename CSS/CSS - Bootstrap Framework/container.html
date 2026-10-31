@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="container.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Bootstrap demo</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ratione
+        magni recusandae a culpa maiores quaerat, obcaecati illo aperiam minima
+        accusantium voluptates tenetur officia quos laborum deserunt sed
+        deleniti necessitatibus? Quod placeat dignissimos, asperiores fugit quo
+        accusamus dolor maiores ut cupiditate laboriosam similique perspiciatis
+        alias cumque incidunt! Eius, atque. Accusantium nihil ex eum dolorem
+        deserunt reprehenderit magnam at nulla optio. Ut laborum labore soluta
+        ex ducimus minima necessitatibus reprehenderit mollitia eveniet a ipsum
+        voluptatum autem error tempore voluptatem libero consequuntur, tempora
+        reiciendis dolor minus velit itaque, architecto vero. Repellat, rem. Aut
+        est doloremque rem explicabo soluta, reiciendis quo laboriosam amet at
+        tempora et consectetur, accusantium maxime voluptatum adipisci illo,
+        ducimus laborum. Architecto aliquam, impedit voluptates corrupti illum
+        distinctio omnis similique? Hic vero, omnis asperiores dolore veritatis,
+        cupiditate eaque dignissimos et ut minima in! Pariatur sunt recusandae
+        commodi, ullam veritatis, assumenda fuga inventore at tenetur, nisi
+        impedit. Adipisci nostrum fugit doloribus.
+      </p>
+
+      <!-- button component -->
+      <button class="btn btn-danger">btn one</button>
+      <!-- <button class="btn btn-success">btn two</button>
+      <button class="btn btn-warning">btn three</button>
+      <button class="btn btn-info">btn four</button> -->
+
+      <button class="btn btn-outline-success">btn two</button>
+      <!-- <button class="btn btn-outline-warning">btn three</button>
+      <button class="btn btn-outline-info">btn four</button> -->
+
+      <button class="btn btn-outline-warning btn-lg">btn three</button>
+      <button class="btn btn-outline-info btn-sm" disabled>btn four</button>
+      <a href="#" class="btn btn-outline-dark">google me!</a>
+      <br />
+
+      <!-- badge component (notification) -->
+      <h3>
+        Notifications
+        <span class="badge bg-danger rounded-pill bg-sm">20+</span>
+      </h3>
+      <br />
+
+      <button class="btn btn-primary">
+        Messages!
+        <span class="badge bg-danger rounded-pill">100+</span>
+      </button>
+      <br />
+      <br />
+
+      <button type="button" class="btn btn-primary position-relative">
+        Inbox
+        <span
+          class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+          >99+</span
+        >
+      </button>
+      <br /><br />
+
+      <!-- alert component -->
+      <div class="alert alert-danger">Download Failed! Please try again...</div>
+      <div class="alert alert-success alert-dismissible">
+        Congratulations your score is 50/50...
+        <button class="btn-close" data-bs-dismiss="alert"></button>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
